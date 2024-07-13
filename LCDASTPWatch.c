@@ -1,58 +1,7 @@
 /* Name: Olayiwola David Abraham
  * Date: 3/1/24
  * LCD Arduino StopWatch In C
- * Student id: 922303843
- * --COPYRIGHT--,BSD
- * Copyright (c) 2017, Texas Instruments Incorporated
- * All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- * *  Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- *
- * *  Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- *
- * *  Neither the name of Texas Instruments Incorporated nor the names of
- *    its contributors may be used to endorse or promote products derived
- *    from this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
- * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
- * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
- * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
- * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
- * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
- * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
- * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
- * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
- * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- * --/COPYRIGHT--*/
-/******************************************************************************
- * MSP432 LCD_F Static Text Display
- *
- * Description: In the code example the LCD_F module is configured to output
- * a static text value of "123ABC". The LCD_F is configured in standard mode
- * and pin assignments are made that map the connected segment/COM pins to the
- * LCD_F registers. A basic map of the pin assignments that generate an
- * elementary alphabet are also provided and a convenience function that
- * displays a character at a position on the LCD is provided.
- *
- *             -----------------
- *            |         (L3)COM3|----------------|
- *            |         (L6)COM2|---------------||
- *            |        (L27)COM1|--------------|||
- *            |        (L26)COM0|-------------||||
- *            |                 |    -------------
- *            |        SEG LINES|---| 1 2 3 4 5 6 |
- *            |                 |    -------------
- *            |                 |       TI LCD
-*******************************************************************************/
+ 
 /* DriverLib Includes */
 #include <LcdDriver/Crystalfontz128x128_ST7735.h>
 #include <ti/grlib/grlib.h>
